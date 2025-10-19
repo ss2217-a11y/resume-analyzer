@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 1.5rem;
+}
+
+.score-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 10px solid;
+    border-color: #28a745;
+}
+
+.text-success .score-circle {
+    border-color: #28a745;
+}
+
+.text-warning .score-circle {
+    border-color: #ffc107;
+}
+
+.text-danger .score-circle {
+    border-color: #dc3545;
+}
+
+.resume-text {
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.badge {
+    font-size: 0.9rem;
+}
