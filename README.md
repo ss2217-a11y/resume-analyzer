@@ -28,6 +28,6 @@
 - Integration with LinkedIn or job portals  
 
 ## Author
-Developed by **[Your Name]**  
+Developed by Sourish Sankar  
 *An academic/personal project demonstrating automation and NLP in recruitment processes.*
 
